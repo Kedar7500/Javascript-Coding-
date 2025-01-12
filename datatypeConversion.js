@@ -38,3 +38,19 @@ console.log(isBool); // true
 // 0 => false, 2 => true, "" => false , "Kedar" => true
 
 
+//-----------------------------Prefix and Postfix
+
+let x = 5;
+let y = ++x; // value is increamented and then return
+
+console.log(x); // 6
+console.log(y); // 6
+
+let d = 10;
+let e = d++; // value is returned and then incremented
+
+console.log(d); // 11
+console.log(e); // 10
+
+
+
