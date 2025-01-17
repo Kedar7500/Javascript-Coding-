@@ -40,3 +40,18 @@ console.log(Object.keys(user)); // [ 'name', 'age', 'email', 'address' ]
 console.log(Object.values(user)); // [ 'Niraj', 28, 'niraj@gmail.com', 'baramati' ]
 console.log(user.hasOwnProperty('name')); // true
 
+console.log("__________________________________________________________________________________")
+// Object Destructuring
+
+const course = {
+    courseName : "Javascript",
+    couseFees : 999,
+    courseInstructor : "Kedar",
+    courseDuration : "1 month"
+}
+
+const {courseName} = course; // this is the syntax for object destructuring
+console.log(courseName); // Javascript
+
+const {courseInstructor: instructor} = course; // this way you can give short name also
+console.log(instructor); // Kedar
